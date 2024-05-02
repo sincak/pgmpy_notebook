@@ -1,11 +1,13 @@
-networkx
-numpy
-scipy
-pandas
-pyparsing
-pytorch
-statsmodels
-tqdm
-joblib
-pgmpy
-scikit-learn
+# requirements.txt for pgmpy_notebook 
+# Verified good as of 5/1/24 
+joblib==1.4.0 
+networkx==3.3 
+numpy==1.25.2 
+pandas== 1.4.0 # Post v1 changes break notebook code, but also must be >=1.4.0 to avoid dependency conflict for statsmodel==0.14.2
+pyparsing==3.1.2 
+pgmpy==0.1.25 
+scikit-learn ==1.2.2 
+scipy==1.11.4 
+statsmodels ==0.14.2 
+tqdm==4.66.2 
+torch ==2.2.1+cu121
