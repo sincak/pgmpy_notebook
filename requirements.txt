@@ -1,7 +1,7 @@
 networkx
 numpy
 scipy
-pandas
+pandas==1.2.2 #Before breaking changes
 pyparsing
 pytorch
 statsmodels
